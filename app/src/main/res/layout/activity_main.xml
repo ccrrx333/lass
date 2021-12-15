@@ -7,7 +7,36 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity" >
-    
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="150dp"
+        app:srcCompat="@drawable/logomainfix" />
+
+
+    <Button
+        android:id="@+id/newmemberBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#e0e0e0"
+        android:text="회원 가입"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#949494"
+        android:textColor="#000000"
+        android:text="이미 클러버입니다" />
+
 
 
 
